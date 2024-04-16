@@ -122,8 +122,8 @@ alice@example   presence   bob@example   watcher@example
 
     Main Proxy and Presence Server use a separate Instance
 
-   caller        proxy &   presence      callee         watcher
-alice@example    server     server     bob@example   watcher@example
+   caller        proxy       presence        callee       watcher
+alice@example    server      server        bob@example watcher@example
      |             |            |               |            |
      |             |<--------------------SUBSCRIBE bob-------|
      |             |-SUBSC bob->|               |            |
